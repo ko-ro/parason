@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #3a414e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3a414e;
+  line-height: initial;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.advantages,
+.advantages1 {
+  margin: 0 auto;
+  max-width: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advantages h2,
+.advantages1 h2 {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 135px 0 10px;
+}
+
+.advantages .title,
+.advantages1 .title {
+  width: 575px;
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.advantages .cards,
+.advantages1 .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.advantages .cards .card,
+.advantages1 .cards .card {
+  padding: 30px 35px;
+  background: #faf9ff;
+  border: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.advantages .cards .card:hover,
+.advantages1 .cards .card:hover {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(33, 20, 106, 0.1);
+          box-shadow: 0px 10px 20px 0px rgba(33, 20, 106, 0.1);
+}
+
+.advantages h3,
+.advantages1 h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.advantages p,
+.advantages1 p {
+  font-size: 15px;
+  line-height: 1.667;
+  color: #797979;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #000;
+}
+
+.back {
+  background-color: #fff;
+  padding: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid transparent;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 24px;
+  border-radius: 30px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.primary-btn {
+  background-color: #fff;
+  color: #21146a;
+  color: #3a414e;
+}
+
+.primary-btn:hover {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.primary-btn-reverse {
+  background-color: transparent;
+  border-color: #21146a;
+  color: #3a414e;
+}
+
+.primary-btn-reverse:hover {
+  background-color: #21146a;
+  color: #fff;
+}
+/*# sourceMappingURL=styles.css.map */
